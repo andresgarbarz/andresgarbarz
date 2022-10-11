@@ -4,7 +4,7 @@ import '../css/Sections.css'
 function Sections() {
     return (
         <>
-        <div className='container'>
+        <div className='container' id='sections'>
             <div className='section' id='student'>
                 <div className='txtbox' id='stxtbox'>
                     <h1 className='stxt'>Student</h1>

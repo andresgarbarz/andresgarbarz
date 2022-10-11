@@ -51,6 +51,9 @@ h1 {
     font-weight: 500;
     color: white;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn:hover {
