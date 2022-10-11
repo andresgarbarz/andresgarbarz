@@ -1,5 +1,10 @@
 import React from 'react'
 import '../css/Sections.css'
+import student from '../assets/home/student.jpg'
+import athlete from '../assets/home/athlete.jpg'
+import developer from '../assets/home/developer.jpg'
+import musician from '../assets/home/musician.jpg'
+import extra from '../assets/home/extra.jpg'
 
 function Sections() {
     return (
@@ -9,29 +14,29 @@ function Sections() {
                 <div className='txtbox' id='stxtbox'>
                     <h1 className='stxt'>Student</h1>
                 </div>
-                <img src="../assets/home/student.jpg" alt=""/>
+                <img src={student} alt=""/>
             </div>
             <div className='section' id='athlete'>
                 <div className='txtbox' id='atxtbox'>
                     <h1 className='stxt'>Athlete</h1>
                 </div>
-                <img src="../assets/home/athlete.jpg" alt=""/>
+                <img src={athlete} alt=""/>
             </div>
             <div className='section' id='developer'>
                 <div className='txtbox' id='dtxtbox'>
                     <h1 className='stxt'>Developer</h1>
                 </div>
-                <img src="../assets/home/developer.jpg" alt=""/>
+                <img src={developer} alt=""/>
             </div>
             <div className='section' id='musician'>
                 <div className='txtbox' id='mtxtbox'>
                     <h1 className='stxt'>Musician</h1>
                 </div>
-                <img src="../assets/home/musician.jpg" alt=""/>
+                <img src={musician} alt=""/>
             </div>
             <div className='section' id='musician'></div>
             <div className='extra' id='andmore'>
-                <img src="../assets/home/extra.jpg" alt=""/>
+                <img src={extra} alt=""/>
             </div>
         </div>
         </>
