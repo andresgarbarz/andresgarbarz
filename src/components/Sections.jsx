@@ -9,36 +9,37 @@ import extra from '../assets/home/extra.jpg'
 function Sections() {
     return (
         <>
-        <div className='container' id='sections'>
-            <div className='section' id='student'>
-                <div className='txtbox' id='stxtbox'>
-                    <h1 className='stxt'>Student</h1>
+            <div className="container-container">
+                <div className='container' id='sections'>
+                    <div className='section' id='student'>
+                        <div className='txtbox' id='stxtbox'>
+                            <h1 className='stxt'>Student</h1>
+                        </div>
+                        <img src={student} alt="" />
+                    </div>
+                    <div className='section' id='athlete'>
+                        <div className='txtbox' id='atxtbox'>
+                            <h1 className='stxt'>Athlete</h1>
+                        </div>
+                        <img src={athlete} alt="" />
+                    </div>
+                    <div className='section' id='developer'>
+                        <div className='txtbox' id='dtxtbox'>
+                            <h1 className='stxt'>Developer</h1>
+                        </div>
+                        <img src={developer} alt="" />
+                    </div>
+                    <div className='section' id='musician'>
+                        <div className='txtbox' id='mtxtbox'>
+                            <h1 className='stxt'>Musician</h1>
+                        </div>
+                        <img src={musician} alt="" />
+                    </div>
                 </div>
-                <img src={student} alt=""/>
-            </div>
-            <div className='section' id='athlete'>
-                <div className='txtbox' id='atxtbox'>
-                    <h1 className='stxt'>Athlete</h1>
+                <div className='extra' id='andmore'>
+                    <img src={extra} alt="" />
                 </div>
-                <img src={athlete} alt=""/>
             </div>
-            <div className='section' id='developer'>
-                <div className='txtbox' id='dtxtbox'>
-                    <h1 className='stxt'>Developer</h1>
-                </div>
-                <img src={developer} alt=""/>
-            </div>
-            <div className='section' id='musician'>
-                <div className='txtbox' id='mtxtbox'>
-                    <h1 className='stxt'>Musician</h1>
-                </div>
-                <img src={musician} alt=""/>
-            </div>
-            <div className='section' id='musician'></div>
-            <div className='extra' id='andmore'>
-                <img src={extra} alt=""/>
-            </div>
-        </div>
         </>
     )
 }
