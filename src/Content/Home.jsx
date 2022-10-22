@@ -7,7 +7,7 @@ function Home() {
         <>
         <div className='bg'>
             <h1 className='title'>I am Andrés Matías Garbarz</h1>
-            <Link className='btn' to='sections' smooth={true} duration={1000} delay={100}>Scroll Down</Link>
+            <Link className='btn' to='sections' smooth={true} duration={1000} delay={100}>Learn More</Link>
             {/* <button className='btn'>Scroll Down</button> */}
         </div>
         </>

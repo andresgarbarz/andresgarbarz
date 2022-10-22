@@ -7,14 +7,16 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Landing from './Pages/Landing';
+import Student from './Pages/Student';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        {/* <Route path="expenses" element={<Expenses />} />
-        <Route path="invoices" element={<Invoices />} /> */}
+        <Route path="/" element={<Landing />} />
+        <Route path="student" element={<Student />} />
+        {/* <Route path="invoices" element={<Invoices />} /> */}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
