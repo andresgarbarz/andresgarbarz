@@ -1,0 +1,342 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .btn-back-container {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  position: absolute;
+  top: 120px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--celeste);
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.wrapper .btn-back-container .btn-back-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.wrapper img {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+.wrapper .content {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/student/image 4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 480px) {
+  .wrapper .content {
+    height: auto;
+  }
+}
+.wrapper .content .sides {
+  display: flex;
+  height: 100%;
+}
+@media (max-width: 480px) {
+  .wrapper .content .sides {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.wrapper .content .sides .left-side {
+  flex-grow: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media (max-width: 1600px) {
+  .wrapper .content .sides .left-side {
+    margin: 0 50px;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper .content .sides .left-side {
+    margin: 0 25px;
+  }
+}
+.wrapper .content .sides .left-side .title {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  .wrapper .content .sides .left-side .title {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 75px;
+  }
+}
+@media (max-width: 1300px) {
+  .wrapper .content .sides .left-side .title {
+    margin-top: 100px;
+  }
+}
+.wrapper .content .sides .left-side .title img {
+  width: 150px;
+}
+@media (max-width: 1600px) {
+  .wrapper .content .sides .left-side .title img {
+    width: 125px;
+  }
+}
+.wrapper .content .sides .left-side .title h1 {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--azul);
+}
+@media (max-width: 480px) {
+  .wrapper .content .sides .left-side .title h1 {
+    font-size: 24px;
+    margin: 20px;
+  }
+}
+.wrapper .content .sides .left-side .info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+}
+@media (max-width: 480px) {
+  .wrapper .content .sides .left-side .info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+}
+.wrapper .content .sides .left-side .info .column-l {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.wrapper .content .sides .left-side .info .column-r {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  gap: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.wrapper .content .sides .left-side .bearer {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--azul);
+}
+@media (max-width: 480px) {
+  .wrapper .content .sides .left-side .bearer {
+    margin-bottom: 50px;
+  }
+}
+.wrapper .content .sides .left-side .bearer img {
+  height: 125px;
+}
+.wrapper .content .sides .left-side .bearer h2 {
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 400;
+}
+.wrapper .content .sides .left-side .bearer h2 span {
+  font-size: 24px;
+  font-weight: 500;
+}
+.wrapper .content .sides .left-side .info .ICT {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .content .sides .left-side .info .ICT img {
+  width: 100px;
+}
+.wrapper .content .sides .left-side .info .ICT h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--azul);
+}
+.wrapper .content .sides .left-side .info .SAT {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .content .sides .left-side .info .SAT img {
+  height: 100px;
+}
+@media (max-width: 480px) {
+  .wrapper .content .sides .left-side .info .SAT img {
+    height: auto;
+    width: 100px;
+  }
+}
+.wrapper .content .sides .left-side .info .SAT h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--azul);
+}
+.wrapper .content .sides .left-side .info .GPA {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .content .sides .left-side .info .GPA img {
+  width: 100px;
+}
+.wrapper .content .sides .left-side .info .GPA h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--azul);
+}
+.wrapper .content .sides .left-side .info .ranking {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .content .sides .left-side .info .ranking img {
+  width: 100px;
+}
+.wrapper .content .sides .left-side .info .ranking h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--azul);
+}
+.wrapper .content .sides .left-side .info .music {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .content .sides .left-side .info .music img {
+  width: 100px;
+}
+.wrapper .content .sides .left-side .info .music h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--azul);
+}
+.wrapper .content .sides .left-side .info .basketball {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .content .sides .left-side .info .basketball img {
+  width: 100px;
+}
+.wrapper .content .sides .left-side .info .basketball h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--azul);
+}
+.wrapper .content .sides .left-side .info .bearer {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .content .sides .left-side .info .bearer img {
+  width: 100px;
+}
+.wrapper .content .sides .left-side .info .bearer h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--azul);
+}
+.wrapper .content .sides .right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media (max-width: 1300px) {
+  .wrapper .content .sides .right-side {
+    margin: 0 50px 0 25px;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper .content .sides .right-side {
+    margin-top: 150px;
+  }
+}
+.wrapper .content .sides .right-side #main-pic {
+  width: 65%;
+}
+@media (max-width: 1300px) {
+  .wrapper .content .sides .right-side #main-pic {
+    width: 80%;
+  }
+}
+.wrapper .content .sides .right-side .languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+@media (max-width: 400px) {
+  .wrapper .content .sides .right-side .languages div {
+    flex-direction: column;
+  }
+}
+.wrapper .content .sides .right-side .languages div .spanish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .content .sides .right-side .languages div .english {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .content .sides .right-side .languages div {
+  display: flex;
+  gap: 25px;
+}
+.wrapper .content .sides .right-side .languages div .hebrew {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .content .sides .right-side .languages div .chinese {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=StudentAbout.css.map */

@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import StudentAbout from '../Content/StudentAbout'
 
 function Student() {
     return (
         <>
-            <Navbar title={"Andrés Matías Garbarz"}></Navbar>
+            <Navbar />
+            <StudentAbout></StudentAbout>
         </>
     )
 }
