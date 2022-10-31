@@ -1,0 +1,151 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./../../assets/future/image 53.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1352px) {
+  .wrapper {
+    height: auto;
+  }
+}
+.wrapper img {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+.wrapper .btn-back-container {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  margin-top: 140px;
+  margin-left: 5%;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--celeste);
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.wrapper .btn-back-container .btn-back-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.wrapper .columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.wrapper .columns .school-awards {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+@media (max-width: 1350px) {
+  .wrapper .columns .school-awards {
+    margin-bottom: 35px;
+  }
+}
+.wrapper .columns .school-awards div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+}
+.wrapper .columns .school-awards div p {
+  text-align: center;
+  font-weight: 600;
+  color: var(--azul);
+}
+.wrapper .columns .international-exams {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+}
+.wrapper .columns .international-exams img {
+  width: 150px;
+}
+.wrapper .columns .international-exams div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.wrapper .columns .international-exams div i {
+  color: var(--azul);
+  font-size: 16px;
+  font-weight: 700;
+}
+.wrapper .columns .courses-activities {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+.wrapper .columns .courses-activities h2 {
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+.wrapper .columns .courses-activities img {
+  margin: 0 auto;
+  width: 200px;
+}
+.wrapper .columns .courses-activities div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.wrapper .columns .courses-activities div img {
+  margin: 0;
+}
+.wrapper .columns .courses-activities div .ticLab {
+  width: 75px;
+}
+
+h2 {
+  color: var(--azul);
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+h3 {
+  color: var(--azul);
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+.london {
+  color: #c00000;
+}
+
+.Puerto {
+  color: #1aa403;
+}/*# sourceMappingURL=Achievements.css.map */

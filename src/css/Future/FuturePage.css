@@ -1,0 +1,114 @@
+.wrapper-f {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-f .btn-back-container {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  margin-top: 110px;
+  margin-left: 3%;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--celeste);
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.wrapper-f .btn-back-container .btn-back-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.wrapper-f .content-f {
+  box-sizing: border-box;
+  padding: 75px 25px 0 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media (max-width: 730px) {
+  .wrapper-f .content-f {
+    margin-top: 25px;
+  }
+}
+.wrapper-f .content-f h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--azul);
+}
+.wrapper-f .content-f .sections-f {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.wrapper-f .content-f .sections-f div {
+  width: 310px;
+}
+.wrapper-f .content-f .sections-f div h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+@media (max-width: 350px) {
+  .wrapper-f .content-f .sections-f div h3 {
+    font-size: 24px;
+  }
+}
+.wrapper-f .content-f .sections-f .entrepreneurship h3 {
+  color: #d218cb;
+}
+.wrapper-f .content-f .sections-f .computer-science h3 {
+  color: #48b6c5;
+}
+.wrapper-f .content-f .sections-f .computer-science .IA {
+  color: #020061;
+  font-weight: 600;
+}
+.wrapper-f .content-f .sections-f .computer-science .IOT {
+  color: #870bc1;
+  font-weight: 600;
+}
+.wrapper-f .content-f .sections-f .computer-science .Robotics {
+  color: #7e7e7e;
+  font-weight: 600;
+}
+.wrapper-f .content-f .sections-f .business h3 {
+  color: #8e0000;
+}
+.wrapper-f .content-f .sections-f .business .trading {
+  color: #b6c318;
+  font-weight: 600;
+}
+.wrapper-f .content-f .sections-f .business .investing {
+  color: #00c314;
+  font-weight: 600;
+}
+.wrapper-f .content-f .sections-f .business .economics {
+  color: #c36a00;
+  font-weight: 600;
+}
+
+@media (max-width: 730px) {
+  .goals {
+    margin-bottom: 50px;
+  }
+}
+
+p {
+  text-align: left;
+  font-size: 20px;
+  max-width: 800px;
+  font-weight: 500;
+}/*# sourceMappingURL=FuturePage.css.map */

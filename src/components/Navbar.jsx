@@ -14,16 +14,13 @@ function Navbar({title}) {
                 <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
                     <ul>
                         <li>
-                            <a href="/student">HOME</a>
+                            <a href="#about">ABOUT ME</a>
                         </li>
                         <li>
-                            <a href="/about">ABOUT ME</a>
+                            <a href="#achievements">ACHIEVEMENTS</a>
                         </li>
                         <li>
-                            <a href="/contact">ACHIEVEMENTS</a>
-                        </li>
-                        <li>
-                            <a href="/contact">FUTURE</a>
+                            <a href="#future">FUTURE</a>
                         </li>
                     </ul>
                 </div>

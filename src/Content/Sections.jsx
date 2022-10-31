@@ -5,7 +5,7 @@ import athlete from '../assets/home/athlete.jpg'
 import developer from '../assets/home/developer.jpg'
 import musician from '../assets/home/musician.jpg'
 import extra from '../assets/home/extra.jpg'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import Student from '../Pages/Student'
 
 function Sections() {
@@ -17,7 +17,9 @@ function Sections() {
                         <div className='txtbox' id='stxtbox'>
                             <h1 className='stxt'>Student</h1>
                         </div>
-                        <img src={student} alt="student" />
+                        <Link to={"/student"}>
+                            <img src={student} alt="student" />
+                        </Link>
                     </div>
                     <div className='section' id='athlete'>
                         <div className='txtbox' id='atxtbox'>
