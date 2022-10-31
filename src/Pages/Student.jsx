@@ -7,8 +7,7 @@ import BackBtn from "../components/BackBtn";
 
 function Student() {
   return (
-    <>
-      
+    <>      
       <Navbar />
       <BackBtn />
       <StudentAbout />

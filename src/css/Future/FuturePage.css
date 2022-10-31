@@ -2,7 +2,13 @@
   height: 100vh;
   width: 100vw;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+  background-image: url("../../assets/student/office.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .wrapper-f .btn-back-container {
   -webkit-touch-callout: none; /* iOS Safari */

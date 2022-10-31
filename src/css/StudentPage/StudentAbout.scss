@@ -22,38 +22,6 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    .btn-back-container {
-      position: sticky;
-      top: 0;
-      -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-      -khtml-user-select: none; /* Konqueror HTML */
-      -moz-user-select: none; /* Old versions of Firefox */
-      -ms-user-select: none; /* Internet Explorer/Edge */
-      user-select: none;
-      margin-top: 110px;
-      margin-left: 3%;
-      margin-right: auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--celeste);
-      font-size: 24px;
-      text-decoration: none;
-      font-weight: 600;
-      @media(max-width: 1600px){
-        margin-bottom: 25px;
-      }
-      @media(max-width: 1300px){
-        margin-bottom: 0;
-      }
-      .btn-back-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-      }
-    }
     .sides {
       display: flex;
       height: 100%;
@@ -285,7 +253,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: start;
+        justify-content: center;
         gap: 25px;
         @media(max-width: 1000px){
           flex-direction: row;

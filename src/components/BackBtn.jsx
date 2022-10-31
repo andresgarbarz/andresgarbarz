@@ -1,12 +1,13 @@
 import React from 'react'
-import '../css/StudentPage/StudentAbout.css'
+import { Link } from 'react-router-dom'
+import '../css/BackBtn/BackBtn.css'
 
 function BackBtn() {
 
     return (
         <>
-            <a
-                href="https://andresgarbarz.netlify.app/#sections"
+            <Link to={"/"}
+                
                 className="btn-back-container"
             >
                 <div className="btn-back-content">
@@ -26,7 +27,7 @@ function BackBtn() {
                     </svg>
                     <span>Back</span>
                 </div>
-            </a>{" "}
+            </Link>{" "}
         </>
     )
 }

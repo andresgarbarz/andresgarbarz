@@ -18,7 +18,7 @@ function Sections() {
                             <h1 className='stxt'>Student</h1>
                         </div>
                         <Link to={"/student"}>
-                            <img src={student} alt="student" />
+                            <img src={student} alt="student"/>
                         </Link>
                     </div>
                     <div className='section' id='athlete'>

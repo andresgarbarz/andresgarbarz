@@ -34,7 +34,7 @@ function Future() {
               <h3>Computer Science</h3>
               <div>
                 <span className="Robotics">Robotics</span>
-                <span className="IA"> IA </span>
+                <span className="IA"> AI </span>
                 <span className="IOT">IOT</span>
               </div>
             </div>
