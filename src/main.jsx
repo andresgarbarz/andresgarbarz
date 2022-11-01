@@ -5,8 +5,9 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./Pages/Landing";
 import Student from "./Pages/Student";
-import StudentAchievements from './Pages/StudentAchievements';
-import StudenFuture from './Pages/StudentFuture';
+import Athlete from "./Pages/Athlete";
+import Developer from "./Pages/Developer";
+import Musician from "./Pages/Musician";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,9 +15,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="student" element={<Student />} />
-        <Route path="achievements" element={<StudentAchievements/>} />
-        <Route path="future" element={<StudenFuture/>}/>
-        {/* <Route path="invoices" element={<Invoices />} /> */}
+        <Route path="athlete" element={<Athlete />} />
+        <Route path="developer" element={<Developer />} />
+        <Route path="musician" element={<Musician />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

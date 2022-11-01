@@ -1,0 +1,115 @@
+.wrapper-a {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 50px;
+  /* background-color: #101A33; */
+  background-image: url("../../assets/athlete/athletebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1600px) {
+  .wrapper-a {
+    margin: 0 25px;
+  }
+}
+.wrapper-a .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-a .background h1 {
+  color: #ffffff;
+  text-align: center;
+  z-index: 100;
+  font-size: 128px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  opacity: 0.1;
+}
+.wrapper-a .background .andy-basket {
+  position: absolute;
+  width: 18%;
+  left: 45%;
+  bottom: 0;
+  z-index: 200;
+}
+.wrapper-a .columns-a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper-a .columns-a .column1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.wrapper-a .columns-a .column1 div {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.wrapper-a .columns-a .column1 div h3 {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 25px;
+  text-align: left;
+}
+.wrapper-a .columns-a .column1 div div {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-a .columns-a .column2 {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-a .columns-a .column2 .basket-pos {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-a .columns-a .column2 .basket-pos h4 {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.wrapper-a .columns-a .column2 .basket-pos p {
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 5px;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+}
+.wrapper-a .columns-a .column2 .football-pos {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-a .columns-a .column2 .football-pos h4 {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.wrapper-a .columns-a .column2 .football-pos p {
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 5px;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+}/*# sourceMappingURL=athlete.css.map */
