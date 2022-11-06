@@ -73,7 +73,7 @@ C#
 ## 🔗 Links
 
 [![portfolio](https://img.shields.io/badge/Portfolio-4560b2?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://andresgarbarz.netlify.app/)
-[![linked-in](https://img.shields.io/badge/Linked_In-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/andres-matias-garbarz/)
+[![linkedin](https://img.shields.io/badge/Linkedin-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/andres-matias-garbarz/)
 [![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/andresgarbarz)
 [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:andresgarbarz@gmail.com)
 [![discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=ffffff)](https://discordapp.com/users/%F0%9D%93%90%F0%9D%93%B7%F0%9D%93%AD%F0%9D%94%82#4916)
