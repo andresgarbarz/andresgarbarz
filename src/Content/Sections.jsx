@@ -32,7 +32,7 @@ function Sections() {
                         <div className='txtbox' id='dtxtbox'>
                             <h1 className='stxt'>Developer</h1>
                         </div>
-                        <Link to={"/musician"}>
+                        <Link to={"/developer"}>
                             <img src={developer} alt="developer" />
                         </Link>
                     </div>

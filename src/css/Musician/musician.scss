@@ -1,0 +1,96 @@
+.wrapper-m {
+    width: 100%;
+    height: 100vh;
+
+    .header-m {
+        
+        .bgcolor {
+            background-color: #161616;
+            position: relative;
+            width: 100vw;
+            height: 50vh;
+
+            .m-title {
+                display: flex;
+            }
+
+            .image {
+                height: 100%;
+                width: 100%;
+                background-image: url("../../assets/musician/longpiano.jpg");
+                opacity: 0.1;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .titlename{
+                color: white;
+                position: absolute;
+                
+                /* font-family: 'Akira Expanded'; */
+                font-style: normal;
+                font-weight: 800;
+                font-size: 65px;
+                
+                /* identical to box height */
+
+                
+                letter-spacing: 0.05em;
+            }
+            #name {
+                top: 30%;
+                left:50%;
+            }
+            #name2 {
+                top: 50%;
+                left: 30%;
+            }
+            .mybr {
+                padding-top: 10px;
+            }
+        }
+
+        
+        
+    }
+}
+
+.row {
+    padding: 55px 50px;
+    
+    .box{
+        display: flex;
+        
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        svg{
+            height: 50px;
+            margin: 0px 20px 0px 20px;
+        }    
+    }
+
+    #box1, #box3 {
+        justify-content: flex-start;
+    }
+    #box2, #box4 {
+        justify-content: flex-end;
+        .band{
+            height: 50px;
+            margin: 0px 20px 0px 20px;
+        }        
+    }    
+}
+    
+    
+
+#row1, #row3 {
+    background-color: #fff;
+    
+}
+
+
+#row2, #row4 {
+    background-color: #F2EDED;
+}
