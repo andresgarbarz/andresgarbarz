@@ -59,9 +59,6 @@ C#
 ![sqlite](https://img.shields.io/badge/SQLite_3-0F80CC?style=for-the-badge&logo=sqlite&logoColor=ffffff)
 ![heroku](https://img.shields.io/badge/Heroku-997BBD?style=for-the-badge&logo=heroku&logoColor=ffffff)
 
-#### Game Development
-![unity](https://img.shields.io/badge/unity-010100?style=for-the-badge&logo=unity&logoColor=ffffff)
-
 ### Front-End Development
 
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -69,6 +66,9 @@ C#
 ![bootstrap](https://img.shields.io/badge/Bootstrap-6c35f0?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![pwa](https://img.shields.io/badge/Progressive_Web_App-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![netlify](https://img.shields.io/badge/Netlify-00c2b1?style=for-the-badge&logo=netlify&logoColor=ffffff)
+
+#### Game Development
+![unity](https://img.shields.io/badge/unity-010100?style=for-the-badge&logo=unity&logoColor=ffffff)
 
 ## 🔗 Links
 
