@@ -12,9 +12,9 @@ function MusicianHome() {
                         <div className="image">
                         </div>
                         <div className='m-title'>
-                            <span className='titlename' id='name'>I AM</span>
-                                <div className='mybr'></div>
-                            <span className='titlename' id='name2'>ANDRÉS MATÍAS GARBARZ</span>
+                            <span className='titlename' id='name'>I AM ANDRÉS MATÍAS GARBARZ</span>
+                                {/* <div className='mybr'></div>
+                            <span className='titlename' id='name2'>ANDRÉS MATÍAS GARBARZ</span> */}
                         </div>
                     </div>
                 </div>

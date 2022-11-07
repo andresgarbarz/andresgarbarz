@@ -3,15 +3,21 @@
     height: 100vh;
 
     .header-m {
-        
+
         .bgcolor {
             background-color: #161616;
             position: relative;
             width: 100vw;
-            height: 50vh;
+            height: 34vh;
+
+            /* @media (max-width: 500px) {
+                height: 60vh;
+            } */
 
             .m-title {
                 display: flex;
+                justify-content: center;
+                align-items: flex-end;
             }
 
             .image {
@@ -30,7 +36,18 @@
                 /* font-family: 'Akira Expanded'; */
                 font-style: normal;
                 font-weight: 800;
-                font-size: 65px;
+                font-size: 64px;
+
+                @media (max-width: 850px) {
+                    width: 95%;
+                }
+
+                @media (max-width: 700px) {
+                    font-size: 52px;
+                }
+                @media (max-width: 500px) {
+                    font-size: 52px;
+                }
                 
                 /* identical to box height */
 
@@ -38,16 +55,16 @@
                 letter-spacing: 0.05em;
             }
             #name {
-                top: 30%;
-                left:50%;
+                text-align: center;
+                /* top: 30%; */
             }
-            #name2 {
+            /* #name2 {
                 top: 50%;
                 left: 30%;
             }
             .mybr {
                 padding-top: 10px;
-            }
+            }*/
         }
 
         
@@ -64,6 +81,11 @@
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
+
+        span {
+            font-size: 24px;
+            font-weight: 500;
+        }
 
         svg{
             height: 50px;
