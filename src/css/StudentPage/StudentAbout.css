@@ -28,10 +28,19 @@
 .wrapper .content .sides {
   display: flex;
   height: 100%;
+  /* @media(max-width: 1650px){
+    transform: scale(0.75) !important;
+  } */
+}
+@media (min-width: 1600px) {
+  .wrapper .content .sides {
+    margin-top: 5%;
+  }
 }
 @media (max-width: 1000px) {
   .wrapper .content .sides {
     flex-direction: column-reverse;
+    margin-top: 10%;
   }
 }
 @media (max-width: 480px) {
@@ -41,6 +50,7 @@
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10%;
   }
 }
 .wrapper .content .sides .left-side {
@@ -54,6 +64,7 @@
 @media (max-width: 1600px) {
   .wrapper .content .sides .left-side {
     margin: 0 50px;
+    margin-top: 10%;
   }
 }
 @media (max-width: 480px) {
