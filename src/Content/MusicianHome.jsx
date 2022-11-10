@@ -28,7 +28,7 @@ function MusicianHome() {
                 </div>
                 <div className='row' id='row2'>
                     <div className='box' id='box2'>
-                        <span>Founder & leader of a band</span>
+                        <span>Main School Band Member</span>
                         <img src={band} alt="bandicon" className='band' />
                     </div>
                 </div>
