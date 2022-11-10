@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   @media(min-width: 1650px){
-    height: 100vh;
+    height: calc(100vh - 70px);
   }
   img {
     -webkit-touch-callout: none; /* iOS Safari */

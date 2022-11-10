@@ -6,7 +6,7 @@
 }
 @media (min-width: 1650px) {
   .wrapper {
-    height: 100vh;
+    height: calc(100vh - 70px);
   }
 }
 .wrapper img {

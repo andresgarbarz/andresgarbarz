@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useEffect} from "react";
 import DeveloperHome from '../content/DeveloperHome'
 
 function Landing() {
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0});
+    }, []);
     return (
         <>
             <DeveloperHome/>
