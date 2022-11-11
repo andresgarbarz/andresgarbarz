@@ -19,7 +19,7 @@ import one from "../assets/student/Group 4.png";
 
 function StudentAbout() {
   return (
-    <div className="wrapper" id="about">
+    <div className="wrapper-ab" id="about">
       {/* Áca va el link para volver a la home*/}
       <div className="content">
         
@@ -91,7 +91,6 @@ function StudentAbout() {
               <img src={israelFlag} alt="Israel flag" />
               <h2>
                 <span>Standard Bearer</span>
-                <br />
                 (Honor Student Award)
               </h2>
             </div>

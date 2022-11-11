@@ -43,6 +43,11 @@
   justify-content: center;
   gap: 50px;
 }
+@media (max-width: 1650px) {
+  .wrapper-f .content-f {
+    transform: scale(0.9) !important;
+  }
+}
 @media (max-width: 730px) {
   .wrapper-f .content-f {
     margin-top: 25px;

@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper-ab {
   height: auto;
   width: 100vw;
   display: flex;
@@ -15,6 +15,7 @@
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
   }
   .content {
+    padding-top: 30px;
     height: 100%;
     width: 100%;
     background-image: url("../../assets/student/image 4.png");
@@ -25,6 +26,9 @@
     .sides {
       display: flex;
       height: 100%;
+      @media(max-width: 1650px){
+        transform: scale(0.75) !important;
+      }
       @media(max-width: 1000px){
         flex-direction: column-reverse;
       }

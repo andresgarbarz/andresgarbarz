@@ -21,7 +21,7 @@ import tic from './../assets/future/Group 11.png';
 
 function Achievements() {
   return (
-    <div className="wrapper" id="achievements">
+    <div className="wrapper-ac" id="achievements">
       {/* <a
         href="https://andresgarbarz.netlify.app/#sections"
         className="btn-back-container"

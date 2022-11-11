@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import '../css/Navbar.css'
+import { Link } from 'react-scroll';
 
 function Navbar({title}) {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -15,13 +16,13 @@ function Navbar({title}) {
                 <div className={isNavExpanded ? "nav-menu" : "nav-menu expanded"}>
                     <ul>
                         <li>
-                            <a href="#about">ABOUT ME</a>
+                        <Link to='wrapper-ab' smooth={"easeInOutQuart"} duration={1500} delay={0} onClick={() => { setIsNavExpanded(false) }}>ABOUT ME</Link>
                         </li>
                         <li>
-                            <a href="#achievements">ACHIEVEMENTS</a>
+                        <Link to='wrapper-ac' smooth={"easeInOutQuart"} duration={1500} delay={0} onClick={() => { setIsNavExpanded(false) }}>ACHIEVEMENTS</Link>
                         </li>
                         <li>
-                            <a href="#future">FUTURE</a>
+                        <Link to='wrapper-f' smooth={"easeInOutQuart"} duration={1500} delay={0} onClick={() => { setIsNavExpanded(false) }}>FUTURE</Link>
                         </li>
                     </ul>
                 </div>

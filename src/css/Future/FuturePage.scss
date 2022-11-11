@@ -43,6 +43,9 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    @media(max-width: 1650px){
+      transform: scale(0.9) !important;
+    }
     @media (max-width: 730px) {
       margin-top: 25px;
     }
