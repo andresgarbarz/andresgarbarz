@@ -64,7 +64,7 @@ function StudentAbout() {
                 </div>
                 <div className="GPA">
                   <img src={gorroUni} alt="Mortarboard icon" />
-                  <h2>-/10 GPA</h2>
+                  <h2>9.92/10 GPA</h2>
                 </div>
                 <div className="music">
                   <img src={piano} alt="Piano icon" />
@@ -75,7 +75,7 @@ function StudentAbout() {
               <div className="column-r">
                 <div className="SAT">
                   <img src={satLogo} alt="SAT icon" />
-                  <h2>- SAT Score</h2>
+                  <h2>1480 SAT Score</h2>
                 </div>
                 <div className="ranking">
                   <img src={podio} alt="Podio icon" />

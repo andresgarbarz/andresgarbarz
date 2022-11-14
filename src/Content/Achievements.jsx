@@ -91,7 +91,7 @@ function Achievements() {
           <div>
             <img src={sat} alt="SAT Exam" />
             <i>
-              -
+              1480
               <br />
               720 R&W
               <br />
