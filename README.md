@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 
 <!-- ### 🚧 This README.md is still under development 🚧 -->
-### 💬 All my repositories are private for now; I'll publish them soon 💬
+### 💬 Most of my repositories are private for now; I'll publish them soon 💬
 
 # [Andrés Matías Garbarz](https://andresgarbarz.netlify.app)
 
