@@ -1,6 +1,6 @@
 .wrapper-a{
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
     overflow: hidden;
     box-sizing: border-box;
     padding: 0 50px;
@@ -8,9 +8,9 @@
     background-image: url("../../assets/athlete/athletebg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    @media(max-width: 1600px){
+    /* @media(max-width: 1600px){
         margin: 0 25px;
-    }
+    } */
     .background{
         position: absolute;
         top: 0;
@@ -30,19 +30,24 @@
         }
         .andy-basket{
             position: absolute;
-            width: 18%;
+            width: 35vh;
             left: 45%;
             bottom: 0;
             z-index: 200;
         }
     }
     .columns-a{
+        @media(max-width: 1200px){
+            flex-wrap: wrap;
+        }
         width: 100%;
         height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         .column1{
+            z-index: 400;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             gap: 50px;
@@ -67,7 +72,16 @@
             }
         }
         .column2{
+            z-index: 400;
             display: flex;
+            min-height: 100vh;
+            justify-content: space-around;
+            @media(max-width: 971px){
+                padding-top: 15px;
+                justify-content: flex-start;
+                min-height: fit-content;
+                gap: 15px;
+            }
             flex-direction: column;
             .basket-pos{
                 text-align: center;
