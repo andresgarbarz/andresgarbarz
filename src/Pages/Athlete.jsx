@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import AthleteHome from "../Content/AthleteHome";
+import AthletePage from "../Content/Athlete/AthletePage";
 
 
 function Athlete() {
@@ -8,7 +8,7 @@ function Athlete() {
     }, []);
     return (
         <>
-            <AthleteHome/>
+            <AthletePage/>
         </>
     );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Future/FuturePage.css";
+import "../../css/Student/Future/Future.css";
 
 function Future() {
   return (

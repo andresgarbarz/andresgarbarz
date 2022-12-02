@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("../../assets/student/office.png");
+  background-image: url("../../../assets/student/office.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -122,4 +122,4 @@ p {
   font-size: 20px;
   max-width: 800px;
   font-weight: 500;
-}/*# sourceMappingURL=FuturePage.css.map */
+}/*# sourceMappingURL=Future.css.map */

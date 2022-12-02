@@ -12,7 +12,7 @@
 }
 
 .bg {
-    background: rgba(0, 0, 0, 0.2) url("../assets/home/bg.jpg");
+    background: rgba(0, 0, 0, 0.2) url("../../assets/home/bg.jpg");
     background-position: 90% 10%;
     background-size: cover;
     background-repeat: no-repeat;

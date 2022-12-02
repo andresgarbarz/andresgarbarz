@@ -1,9 +1,13 @@
+@font-face {
+  font-family: "Akira Expanded";
+  src: url("../../assets/akiraexpanded.ttf");
+}
 .wrapper-a {
   width: 100vw;
   min-height: 100vh;
   overflow: hidden;
   box-sizing: border-box;
-  padding: 0 50px;
+  padding: 4rem 2rem 2rem 2rem;
   /* background-color: #101A33; */
   background-image: url("../../assets/athlete/athletebg.jpg");
   background-repeat: no-repeat;
@@ -26,12 +30,14 @@
   color: #ffffff;
   text-align: center;
   z-index: 100;
-  font-size: 128px;
+  font-size: 7.5rem;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   opacity: 0.1;
+  font-family: "Akira Expanded";
+  line-height: 12rem;
 }
 .wrapper-a .background .andy-basket {
   position: absolute;
@@ -54,10 +60,11 @@
 }
 .wrapper-a .columns-a .column1 {
   z-index: 400;
-  min-height: 100vh;
+  max-height: 100vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 2rem;
 }
 .wrapper-a .columns-a .column1 div {
   flex-grow: 1;
@@ -73,6 +80,7 @@
   font-weight: 400;
   margin-left: 25px;
   text-align: left;
+  font-size: 1.5rem;
 }
 .wrapper-a .columns-a .column1 div div {
   display: flex;
@@ -81,8 +89,9 @@
 .wrapper-a .columns-a .column2 {
   z-index: 400;
   display: flex;
-  min-height: 100vh;
-  justify-content: space-around;
+  max-height: 100vh;
+  min-height: 85vh;
+  justify-content: space-between;
   flex-direction: column;
 }
 @media (max-width: 971px) {
@@ -99,19 +108,28 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 .wrapper-a .columns-a .column2 .basket-pos h4 {
-  font-size: 28px;
+  font-size: 2rem;
   margin-top: 25px;
   margin-bottom: 15px;
   color: #ffffff;
+  margin: 5px auto 5px auto;
 }
 .wrapper-a .columns-a .column2 .basket-pos p {
   box-sizing: border-box;
   text-align: center;
   padding-top: 5px;
   color: #ffffff;
-  border-top: 1px solid #ffffff;
+  margin: 5px auto 5px auto;
+}
+.wrapper-a .columns-a .column2 .basket-pos hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50%;
+  margin: 0px auto 0px auto;
 }
 .wrapper-a .columns-a .column2 .football-pos {
   text-align: center;
@@ -119,15 +137,23 @@
   justify-content: center;
 }
 .wrapper-a .columns-a .column2 .football-pos h4 {
-  font-size: 28px;
+  font-size: 2rem;
   margin-top: 25px;
   margin-bottom: 15px;
   color: #ffffff;
+  margin: 5px auto 5px auto;
 }
 .wrapper-a .columns-a .column2 .football-pos p {
   box-sizing: border-box;
   text-align: center;
   padding-top: 5px;
   color: #ffffff;
-  border-top: 1px solid #ffffff;
+  margin: 5px auto 5px auto;
+}
+.wrapper-a .columns-a .column2 .football-pos hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 50%;
+  margin: 0px auto 0px auto;
 }/*# sourceMappingURL=athlete.css.map */

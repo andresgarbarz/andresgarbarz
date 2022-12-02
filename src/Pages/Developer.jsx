@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import DeveloperHome from '../content/DeveloperHome'
+import DeveloperHome from '../Content/Developer/DeveloperHome';
 
 function Landing() {
     useEffect(() => {

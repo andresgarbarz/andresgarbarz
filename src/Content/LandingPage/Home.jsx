@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Home.css'
+import '../../css/LandingPage/Home.css'
 import Link from 'react-scroll/modules/components/Link'
 
 function Home() {

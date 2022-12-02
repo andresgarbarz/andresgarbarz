@@ -1,5 +1,5 @@
 import React from 'react'
-import "../css/Developer/DevHome.css";
+import "../../css/Developer/DevHome.css"
 
 function DeveloperHome() {
     return (

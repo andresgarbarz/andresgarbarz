@@ -1,9 +1,13 @@
+@font-face {
+    font-family: "Akira Expanded";
+    src: url("../../assets/akiraexpanded.ttf");
+}
 .wrapper-a{
     width: 100vw;
     min-height: 100vh;
     overflow: hidden;
     box-sizing: border-box;
-    padding: 0 50px;
+    padding: 4rem 2rem 2rem 2rem;
     /* background-color: #101A33; */
     background-image: url("../../assets/athlete/athletebg.jpg");
     background-repeat: no-repeat;
@@ -24,9 +28,11 @@
             color: #ffffff;
             text-align: center;
             z-index: 100;
-            font-size: 128px;
+            font-size: 7.5rem;
             user-select: none;
             opacity: 0.1;
+            font-family: 'Akira Expanded';
+            line-height: 12rem;
         }
         .andy-basket{
             position: absolute;
@@ -47,10 +53,11 @@
         align-items: center;
         .column1{
             z-index: 400;
-            min-height: 100vh;
+            max-height: 100vh;
+            min-height: 85vh;
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            gap: 2rem;
             div{
                 flex-grow: 1;
                 display: flex;
@@ -64,6 +71,7 @@
                     font-weight: 400;
                     margin-left: 25px;
                     text-align: left;
+                    font-size: 1.5rem;
                 }
                 div{
                     display: flex;
@@ -74,8 +82,9 @@
         .column2{
             z-index: 400;
             display: flex;
-            min-height: 100vh;
-            justify-content: space-around;
+            max-height: 100vh;
+            min-height: 85vh;
+            justify-content: space-between;
             @media(max-width: 971px){
                 padding-top: 15px;
                 justify-content: flex-start;
@@ -87,18 +96,27 @@
                 text-align: center;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 2rem;
                 h4{
-                    font-size: 28px;
+                    font-size: 2rem;
                     margin-top: 25px;
                     margin-bottom: 15px;
                     color: #ffffff;
+                    margin: 5px auto 5px auto;
                 }
                 p{
                     box-sizing: border-box;
                     text-align: center;
                     padding-top: 5px;
                     color: #ffffff;
-                    border-top: 1px solid #ffffff;
+                    margin: 5px auto 5px auto;
+                }
+                hr {
+                    border: none;
+                    height: 1px;
+                    background-color: rgb(255, 255, 255, 0.5);
+                    width: 50%;
+                    margin: 0px auto 0px auto;
                 }
             }
             .football-pos{
@@ -106,17 +124,25 @@
                 align-items: center;
                 justify-content: center;
                 h4{
-                    font-size: 28px;
+                    font-size: 2rem;
                     margin-top: 25px;
                     margin-bottom: 15px;
                     color: #ffffff;
+                    margin: 5px auto 5px auto;
                 }
                 p{
                     box-sizing: border-box;
                     text-align: center;
                     padding-top: 5px;
                     color: #ffffff;
-                    border-top: 1px solid #ffffff;
+                    margin: 5px auto 5px auto;
+                }
+                hr {
+                    border: none;
+                    height: 1px;
+                    background-color: rgb(255, 255, 255, 0.5);
+                    width: 50%;
+                    margin: 0px auto 0px auto;
                 }
             }
         }

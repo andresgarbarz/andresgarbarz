@@ -1,6 +1,6 @@
 import React from 'react'
-import Home from '../content/Home'
-import Sections from '../content/Sections'
+import Home from '../Content/LandingPage/Home'
+import Sections from '../Content/LandingPage/Sections'
 
 function Landing() {
     return (

@@ -1,10 +1,10 @@
 import React from 'react'
-import '../css/Sections.css'
-import student from '../assets/home/student.jpg'
-import athlete from '../assets/home/athlete.jpg'
-import developer from '../assets/home/developer.jpg'
-import musician from '../assets/home/musician.jpg'
-import extra from '../assets/home/extra.jpg'
+import '../../css/LandingPage/sections.css'
+import student from '../../assets/home/student.jpg'
+import athlete from '../../assets/home/athlete.jpg'
+import developer from '../../assets/home/developer.jpg'
+import musician from '../../assets/home/musician.jpg'
+import extra from '../../assets/home/extra.jpg'
 import { Link } from 'react-router-dom'
 
 function Sections() {

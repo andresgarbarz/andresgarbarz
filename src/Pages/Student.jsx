@@ -1,8 +1,8 @@
 import React, {useEffect} from "react";
 import Navbar from "../components/Navbar";
-import StudentAbout from "../Content/StudentAbout";
-import Achievements from "../Content/Achievements";
-import Future from "../Content/Future";
+import StudentAbout from "../Content/Student/StudentAbout";
+import Achievements from "../Content/Student/Achievements";
+import Future from "../Content/Student/Future";
 import BackBtn from "../components/BackBtn";
 
 function Student() {
