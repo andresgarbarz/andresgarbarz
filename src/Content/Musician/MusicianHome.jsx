@@ -1,7 +1,7 @@
 import React from 'react'
-import "../css/Musician/musician.css"
-import piano from "../assets/musician/piano.jpg";
-import band from "../assets/musician/band.png";
+import "../../css/Musician/musician.css"
+import piano from "../../assets/musician/piano.jpg";
+import band from "../../assets/musician/band.png";
 
 function MusicianHome() {
     return (

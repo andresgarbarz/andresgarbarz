@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import MusicianHome from '../content/MusicianHome'
+import MusicianHome from '../Content/Musician/MusicianHome'
 
 function Musician() {
     useEffect(() => {
