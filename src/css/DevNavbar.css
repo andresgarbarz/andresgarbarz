@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-.navbar {
+.DevNavbar {
     z-index: 10 !important;
     height: 70px;
     width: 100%;
@@ -8,15 +8,15 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: #1E1E1E;
     color: black;
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.25)
 }
 
-.name {
+.dev-name {
     text-decoration: none;
-    color: #4EABFF;
-    font-size: 1.3rem;
+    color: #4eabff;
+    font-size: 20px;
     margin-left: 1rem;
     font-family: 'Montserrat';
     font-style: normal;
@@ -25,19 +25,19 @@
     padding-right: 85px;
     line-height: 20px;
 }
-.nav-menu {
+.dev-nav-menu {
     margin-left: auto;
     padding: 0px 20px 0px 20px;
 }
 
-.nav-menu ul {
+.dev-nav-menu ul {
     display: flex;
     padding: 0;
     list-style: none;
     margin: 0;
 }
 
-.nav-menu li {
+.dev-nav-menu li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@
     font-weight: 500;
 }
 
-.nav-menu li::after {
+.dev-nav-menu li::after {
     background-color: #4EABFF;
     content: "";
     width: 0;
@@ -68,15 +68,15 @@ li:hover::after {
     width: 80%;
 }
 
-.nav-menu li a {
+.dev-nav-menu li a {
     padding-left: 10px;
-    color: #4EABFF;
+    color: white;
     text-decoration: none;
     display: block;
     width: 100%;
 }
 
-.list {
+.dev-list {
     border: 0;
     background-color: transparent;
     cursor: pointer;
@@ -91,11 +91,11 @@ li:hover::after {
     
 } */
 
-@media screen and (max-width: 810px) {
-    .list {
+@media screen and (max-width: 1000px) {
+    .dev-list {
       display: block;
     }
-    .nav-menu ul {
+    .dev-nav-menu ul {
         display: flex;
         justify-content: center;
         position: absolute;
@@ -104,38 +104,38 @@ li:hover::after {
         flex-direction: column;
         width: 100%;
         height: calc(100vh - 77px);
-        background-color: white;
+        background-color: #1E1E1E;
         transition: all 1000ms ease-out;
         z-index: -1;
     }
 
-    .nav-menu li {
+    .dev-nav-menu li {
         text-align: center;
         margin: 0;
-        border-bottom: 0.5px solid rgb(230, 230, 230);
+        border-bottom: 0.5px solid rgb(15, 15, 15);
         box-sizing: border-box;
     }
 
-    .nav-menu li a {
+    .dev-nav-menu li a {
         color: #4EABFF;
         width: 100%;
         padding: 1.5rem 0;
     }
 
-    .nav-menu li:hover {
-        background-color: #eee;
+    .dev-nav-menu li:hover {
+        background-color: rgb(50, 50, 50);
     }
-    .nav-menu.expanded ul {
+    .dev-nav-menu.expanded ul {
         z-index: -1;
         top: -100vh;
         transition: all 1000ms ease-out;
     }
 }
 @media screen and (max-width: 273px) {
-    .navbar {
+    .dev-navbar {
         height: 80px;
     }
-    .nav-menu ul {
+    .dev-nav-menu ul {
         top: 60px;
     }
 }

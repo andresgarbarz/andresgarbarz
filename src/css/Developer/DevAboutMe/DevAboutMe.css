@@ -1,0 +1,9 @@
+.wrapper-da {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  background-color: #1E1E1E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=DevAboutMe.css.map */

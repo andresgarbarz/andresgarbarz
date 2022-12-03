@@ -1,0 +1,48 @@
+.wrapper-dh {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .d-title {
+            .d-name {
+                color: var(--celeste);
+            }
+            color: white;
+            font-size: 3.3rem;
+            font-weight: 500;
+        }
+        .d-role {
+            margin-top: 0.75rem;
+            color: white;
+            font-size: 1.75rem;
+            font-weight: 400;
+        }
+        .d-btn {
+            width: 17.5rem;
+            height: 3rem;
+            border-radius: 20px;
+            background-color: var(--celeste);
+            color: white;
+            font-family: "Montserrat", sans serif;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            svg {
+                margin-left: 1rem;
+            }
+        }
+        .d-btn:hover {
+            background-color: #2988dc;
+        }
+    }
+}

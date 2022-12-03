@@ -11,7 +11,7 @@ function Student() {
   }, []);
   return (
     <>      
-      <Navbar />
+      <Navbar title={"Andrés Matías Garbarz"} />
       <BackBtn />
       <StudentAbout />
       <Achievements />
