@@ -1,21 +1,21 @@
 import React from "react";
 import "../../css/Student/StudentAbout/StudentAbout.css"
 import Navbar from "../../components/Navbar";
-import Andy from "../../assets/student/yofacha 1.png";
-import logoOrt from "../../assets/student/ortlogo2.png";
-import gorroUni from "../../assets/student/Subtract.png";
-import satLogo from "../../assets/student/image 17.png";
-import podio from "../../assets/student/podio.png";
-import piano from "../../assets/student/pianito.png";
-import basketball from "../../assets/student/pelota.png";
-import israelFlag from "../../assets/student/israelflagceremony 1 1.png";
-import english from "../../assets/student/english_logo.png";
-import hebrew from "../../assets/student/hebreoicon (2) 1.png";
-import spanish from "../../assets/student/image 15.png";
-import chinese from "../../assets/student/image 16.png";
-import five from "../../assets/student/Group 1.png";
-import three from "../../assets/student/Group 3.png";
-import one from "../../assets/student/Group 4.png";
+import Andy from "../../assets/student/about/yofacha 1.png";
+import logoOrt from "../../assets/student/about/ortlogo2.png";
+import gorroUni from "../../assets/student/about/Subtract.png";
+import satLogo from "../../assets/student/about/image 17.png";
+import podio from "../../assets/student/about/podio.png";
+import piano from "../../assets/student/about/pianito.png";
+import basketball from "../../assets/student/about/pelota.png";
+import israelFlag from "../../assets/student/about/israelflagceremony 1 1.png";
+import english from "../../assets/student/about/english_logo.png";
+import hebrew from "../../assets/student/about/hebreoicon (2) 1.png";
+import spanish from "../../assets/student/about/image 15.png";
+import chinese from "../../assets/student/about/image 16.png";
+import five from "../../assets/student/about/Group 1.png";
+import three from "../../assets/student/about/Group 3.png";
+import one from "../../assets/student/about/Group 4.png";
 
 function StudentAbout() {
   return (

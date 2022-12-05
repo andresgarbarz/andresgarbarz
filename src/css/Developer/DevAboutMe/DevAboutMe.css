@@ -1,9 +1,72 @@
 .wrapper-da {
   width: 100vw;
-  height: calc(100vh - 70px);
+  height: 100vh;
   background-color: #1E1E1E;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (min-width: 870px) {
+  .wrapper-da {
+    flex-wrap: wrap;
+  }
+}
+.wrapper-da .da-column1 {
+  padding-left: 2rem;
+  width: 75vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media (max-width: 1220px) {
+  .wrapper-da .da-column1 {
+    width: 70vw;
+  }
+}
+@media (max-width: 870px) {
+  .wrapper-da .da-column1 {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+.wrapper-da .da-column1 h2 {
+  color: var(--celeste);
+  font-size: 2.25rem;
+}
+.wrapper-da .da-column1 .da-text {
+  width: 70vw;
+}
+.wrapper-da .da-column1 .da-text p {
+  display: inline;
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.wrapper-da .da-column2 {
+  padding-right: 2rem;
+  display: flex;
   justify-content: center;
   align-items: center;
+  height: inherit;
+  width: auto;
+}
+@media (max-width: 1220px) {
+  .wrapper-da .da-column2 {
+    width: 22vw;
+  }
+}
+@media (max-width: 870px) {
+  .wrapper-da .da-column2 {
+    padding: 0;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.wrapper-da .da-column2 .devface {
+  width: 15rem;
 }/*# sourceMappingURL=DevAboutMe.css.map */

@@ -1,23 +1,23 @@
 import React from "react";
 import "../../css/Student/Achievements/Achievements.css"
-import CS50W from '../../assets/future/CS50W.png';
-import ortLaunchpad from '../../assets/future/launchpad.png';
-import rsk from '../../assets/future/rsk.png';
-import IBM from '../../assets/future/Group 23.png';
-import ticLab from '../../assets/future/image 36.png';
-import abuelos from '../../assets/future/image 35.png';
-import starters from '../../assets/future/image 18.png';
-import movers from '../../assets/future/image 19.png';
-import flyers from '../../assets/future/image 20.png';
-import key from '../../assets/future/image 21.png';
-import pet from '../../assets/future/image 22.png';
-import first from '../../assets/future/image 23.png';
-import advanced from '../../assets/future/image 24.png';
-import sat from '../../assets/future/image 25.png';
-import duolingo from '../../assets/future/image 26.png';
-import stem from '../../assets/future/image 32.png';
-import mvp from '../../assets/future/image 34.png';
-import tic from '../../assets/future/Group 11.png';
+import CS50W from '../../assets/student/achievements/CS50W.png';
+import ortLaunchpad from '../../assets/student/achievements/launchpad.png';
+import rsk from '../../assets/student/achievements/rsk.png';
+import IBM from '../../assets/student/achievements/Group 23.png';
+import ticLab from '../../assets/student/achievements/image 36.png';
+import abuelos from '../../assets/student/achievements/image 35.png';
+import starters from '../../assets/student/achievements/image 18.png';
+import movers from '../../assets/student/achievements/image 19.png';
+import flyers from '../../assets/student/achievements/image 20.png';
+import key from '../../assets/student/achievements/image 21.png';
+import pet from '../../assets/student/achievements/image 22.png';
+import first from '../../assets/student/achievements/image 23.png';
+import advanced from '../../assets/student/achievements/image 24.png';
+import sat from '../../assets/student/achievements/image 25.png';
+import duolingo from '../../assets/student/achievements/image 26.png';
+import stem from '../../assets/student/achievements/image 32.png';
+import mvp from '../../assets/student/achievements/image 34.png';
+import tic from '../../assets/student/achievements/Group 11.png';
 
 function Achievements() {
   return (

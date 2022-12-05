@@ -1,9 +1,62 @@
 .wrapper-da {
+    @media(min-width: 870px){
+        flex-wrap: wrap;
+    }
     width: 100vw;
-    height: calc(100vh - 70px);
+    height: 100vh;
     background-color: #1E1E1E;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    .da-column1 {
+        @media(max-width: 1220px){
+            width: 70vw;
+        }
+        @media(max-width: 870px){
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+        }
+        padding-left: 2rem;
+        width: 75vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        h2 {
+            color: var(--celeste);
+            font-size: 2.25rem;
+        }
+        .da-text {
+            width: 70vw;
+            p {
+                display: inline;
+                color: white;
+                font-weight: 300;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .da-column2 {
+        @media(max-width: 1220px){
+            width: 22vw;
+        }
+        @media(max-width: 870px){
+            padding: 0;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+        }
+        padding-right: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+        width: auto;
+        .devface {
+            width: 15rem;
+        }
+    }
 }

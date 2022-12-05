@@ -12,8 +12,13 @@
         justify-content: center;
         align-items: center;
         .d-title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             .d-name {
                 color: var(--celeste);
+                text-align: center;
             }
             color: white;
             font-size: 3.3rem;

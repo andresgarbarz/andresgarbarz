@@ -14,12 +14,17 @@
   align-items: center;
 }
 .wrapper-dh .title-info .d-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 3.3rem;
   font-weight: 500;
 }
 .wrapper-dh .title-info .d-title .d-name {
   color: var(--celeste);
+  text-align: center;
 }
 .wrapper-dh .title-info .d-role {
   margin-top: 0.75rem;

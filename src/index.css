@@ -8,6 +8,11 @@ body {
   --celeste: #4EABFF;
   --azul: #004B8E;
 }
+.flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

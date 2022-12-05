@@ -16,7 +16,7 @@ function DevNavbar({title}) {
                 <div className={isNavExpanded ? "dev-nav-menu" : "dev-nav-menu expanded"}>
                     <ul>
                         <li>
-                        <Link to='wrapper-dh' smooth={"easeInOutQuart"} duration={1500} delay={0} onClick={() => { setIsNavExpanded(false) }}>HOME</Link>
+                        <Link to='devtop' smooth={"easeInOutQuart"} duration={1500} delay={0} onClick={() => { setIsNavExpanded(false) }}>HOME</Link>
                         </li>
                         <li>
                         <Link to='wrapper-da' smooth={"easeInOutQuart"} duration={1500} delay={0} onClick={() => { setIsNavExpanded(false) }}>ABOUT ME</Link>
