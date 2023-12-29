@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 
 ![flag-arg-gif](https://user-images.githubusercontent.com/67331050/184511398-e252cff9-a7cf-42f2-a42a-1a8261ef82d5.gif) I am from Buenos Aires City, Argentina
 
-🎓 I have graduated from the Information and Communications Technology bachelor's program at ORT High School (1st Class Rank).
+🎓 I have graduated from the [ICT](https://campus.ort.edu.ar/secundaria/belgrano/tic) bachelor's program at [ORT](https://www.ort.edu.ar/) High School (1st Class Rank).
 
 🏫 I am studying Software Engineering at [Instituto Tecnológico Buenos Aires](https://www.itba.edu.ar/) (ITBA).
 
