@@ -32,7 +32,7 @@ Here are some ideas to get you started:
 
 During this journey, I have developed many projects:
 
-[Shadow's Burden](https://team-monke.itch.io/shadows-burden), [SaniWeb](https://saniweb.com.ar)🚧, [TheBlueProject2022](https://theblueproject.netlify.app)🚧, WhereToGo
+[Shadow's Burden](https://team-monke.itch.io/shadows-burden), [SaniWeb](https://saniweb.com.ar) <em>Discontinued</em>🚫, [TheBlueProject2022](https://theblueproject.netlify.app) <em>Discontinued</em>🚫
 
 I also learned many languages and frameworks:
 
