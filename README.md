@@ -26,9 +26,11 @@ Here are some ideas to get you started:
 
 ![flag-arg-gif](https://user-images.githubusercontent.com/67331050/184511398-e252cff9-a7cf-42f2-a42a-1a8261ef82d5.gif) I am from Buenos Aires City, Argentina
 
-🎓 I am a senior year student at ORT High School, graduating in December 2022.
+🎓 I have graduated from the Information and Communications Technology bachelor's program at ORT High School (1st Class Rank).
 
-‍💻 I have been coding for over 3 years now.
+🏫 I am studying Software Engineering at [Instituto Tecnológico Buenos Aires](https://www.itba.edu.ar/) (ITBA).
+
+‍💻 I have been coding for over 4.5 years now.
 
 During this journey, I have developed many projects:
 
